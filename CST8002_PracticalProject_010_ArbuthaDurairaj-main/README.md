@@ -112,3 +112,42 @@ with two user-selected dataset columns and configurable sorting direction (ASC o
 This feature demonstrates integration between the Presentation, Business, and Persistence layers 
 within a closed N-layered architecture while utilizing SQLite-based query processing.
 
+----------------------------------------------------------------------
+
+# Application Preview
+
+## Main Menu
+
+The console-based menu system allows users to display records, reload datasets, perform CRUD operations, and interact with the SQLite-backed application through a layered architecture.
+
+![Main Menu](screenshots/menu.png)
+
+----------------------------------------------------------------------
+
+## Dynamic Multi-Column Sorting
+
+The application supports dynamic multi-column sorting using SQL ORDER BY queries with runtime selection of sorting columns and sorting direction (ASC / DESC).
+
+![Dynamic Sorting](screenshots/sorting.png)
+
+----------------------------------------------------------------------
+
+## CRUD Operations
+
+The system supports adding, updating, displaying, and deleting records dynamically through the console interface while maintaining SQLite database persistence.
+
+### Add Record Operation
+
+![Add Record](screenshots/CRUD_operations_add.png)
+
+### CRUD Operations Menu
+
+![CRUD Operations](screenshots/CRUD_Operations.png)
+
+----------------------------------------------------------------------
+
+## Unit Testing
+
+Unit tests were implemented using Python unittest to validate application functionality and database-related operations.
+
+![Unit Tests](screenshots/unit_tests.png)
